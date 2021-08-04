@@ -1,0 +1,9 @@
+configuration {
+	theme: "/usr/share/rofi/themes/Arc-Dark.rasi";
+	modi: "run,drun,combi";
+	combi-modi: "run,drun";
+	font: "Iosevka 12";
+	lines: 5;
+	terminal: "alacritty";
+	run-shell-command: "{terminal} -e {cmd}";
+}
