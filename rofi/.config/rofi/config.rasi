@@ -6,4 +6,5 @@ configuration {
 	lines: 5;
 	terminal: "alacritty";
 	run-shell-command: "{terminal} -e {cmd}";
+	dpi: 192;
 }
